@@ -20,3 +20,50 @@ Code Snippets
   * 5.1 - Adding a Custom Menu to the Front Page
   * 5.3 - Sticking the Menu to the Top of the Page
   * 5.4 - Adding Smooth Scroll for the Scrolling Effect
+
+# Chapter 2: Creating a Foundation for the Front Page
+
+**2.5 - Setting Up Styles for the Front Page**
+
+```css
+/* CONTENT AREA */
+.content-area {
+	background: #fff;
+	background: hsl(0, 0%, 100%);
+}
+				
+/*CALL TO ACTION*/ 
+#call-to-action {
+    color: #fff;
+    color: hsl(0, 0%, 100%);
+    background: #8abf5e;
+	background: hsl(93, 43%, 56%);
+    padding: 4rem 0;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+    padding: 4rem 0;
+    background: hsl(0, 0%, 90%);
+}
+
+/* SERVICES */
+#services {
+    padding: 4rem 0;
+}
+
+/* MEET THE DOCTOR */ 
+#meet {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+	color: #fff;
+    color: hsl(0, 0%, 100%);
+	background: #00497A;
+    background: hsl(204, 100%, 24%);
+}
+
+/* CONTACT */
+#contact {
+    padding: 4rem 0;
+}
+```
