@@ -67,3 +67,32 @@ Code Snippets
     padding: 4rem 0;
 }
 ```
+**In lander-style.css:**
+
+```css
+@media screen and (max-width: 1539px) and (min-width: 1160px){ 
+    .content-area.lander-page {
+         margin-left: 0; 
+        padding-left: 0; 
+    }
+}
+
+.indent {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1099px) {
+    .indent {
+        margin: 0;
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .indent {
+        margin: 0 2rem;
+    }
+}
+```
